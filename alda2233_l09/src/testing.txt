@@ -1,0 +1,77 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Mohamed Aldakhil
+ID:      169072233
+Email:   alda2233@mylaurier.ca
+Version: 2023-09-10
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Enter a chemical formula: NaOH
+True
+
+Enter a chemical formula: H2O
+False
+
+Enter a chemical formula: OH
+True
+
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter a product code: ATV3482S14
+ATV,3482,S14
+
+Enter a product code: ATV
+ATV,,
+
+Enter a product code: ABG6382G23
+ABG,6382,G23
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter a product code: BFG9000x7
+(True, True, False)
+
+Enter a product code: BF
+(False, False, False)
+
+Enter a product code: BFG9000
+(True, True, False)
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Enter a password: 1234
+not long enough
+no upper case
+no lower case
+
+Enter a password: 1bp
+not long enough
+no upper case
+
+Enter a password: '1goodPassword
+
+
+-------------------------------------------------------
+t10
+-------------------------------------------------------
+Enter a text: Python uses whitespace indentation, rather than curly brackets or keywords, to delimit blocks.
+(1, 78, 0, 12)
+
+Enter a text: xyz
+(0, 3, 0, 0)
+
+Enter a text: 1234
+(0, 0, 4, 0)
+
+
+
+-------------------------------------------------------
